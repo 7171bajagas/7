@@ -1,0 +1,165 @@
+/* Reset general de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y color general de la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía moderna */
+    background: linear-gradient(to bottom right, #e3f2fd, #bbdefb); /* Gradiente suave */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    text-align: center;
+    color: #1e3a5f;
+    padding: 50px 20px;
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para los subtítulos de segundo nivel (HTML, HTTP, etc.) */
+h2 {
+    color: #1e3a5f;
+    font-size: 3em;
+    margin-top: 50px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #ff7043; /* Borde naranja suave */
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Estilo para los subtítulos de tercer nivel (Enlaces útiles) */
+h3 {
+    color: #1e3a5f;
+    font-size: 2.2em;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #ff7043;
+    padding-bottom: 8px;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1.2em;
+    margin: 20px;
+    text-align: justify;
+    line-height: 1.8;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #555;
+    padding: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #1e3a5f;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Transición suave */
+}
+
+a:hover {
+    color: #ff7043; /* Naranja */
+    text-decoration: underline;
+    text-shadow: 0 0 10px #ff7043; /* Sombra suave en los enlaces */
+}
+
+/* Estilo para las listas sin estilo */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1); /* Zoom al pasar el ratón */
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); /* Sombra más prominente */
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 30px;
+    background-color: #1e3a5f;
+    color: white;
+    margin-top: 60px;
+    border-top: 5px solid #ff7043;
+}
+
+/* Botón "Volver al principio" */
+.volver-inicio {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff7043;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.volver-inicio:hover {
+    background-color: #1e3a5f; /* Azul oscuro */
+    transform: scale(1.05); /* Escalado suave al pasar el ratón */
+}
+
+/* Estilo para el contenedor de la cabecera */
+header {
+    background: #1e3a5f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 15px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    color: #ff7043;
+}
